@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ci-ku:
+    image: 'tutum/apache-php'
+    ports:
+      - "80:80"
+    volumes:
+      - '.:/app'
+    networks:
+      - 'website'
+    environment:
+      - ALLOW_OVERRIDE=true
