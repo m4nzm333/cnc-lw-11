@@ -15,8 +15,7 @@ services:
       - 'DB_NAME=sisfo-kaset'
       - 'DB_USERNAME=unlisted'
       - 'DB_PASSWORD=123456'
-    
-
+  
   db:
     image: mysql:5.7
     volumes:

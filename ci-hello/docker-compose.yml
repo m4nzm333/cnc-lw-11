@@ -6,7 +6,5 @@ services:
       - "80:80"
     volumes:
       - '.:/app'
-    networks:
-      - 'website'
     environment:
       - ALLOW_OVERRIDE=true
